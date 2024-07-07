@@ -32,7 +32,7 @@ The dataset used in this project is the Tweets dataset, containing tweets relate
 
 ## Code
 
-python
+```python
 
 import pandas as pd
 
@@ -55,6 +55,7 @@ display(df.head())
 # Check for missing values
 
 print(df.isnull().sum())
+```
 
 ![Screenshot 2024-07-07 110324](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_04/assets/174725064/70e0310d-051f-438e-b149-eb0b793b6683)
 
@@ -62,7 +63,7 @@ print(df.isnull().sum())
 
 ![Screenshot 2024-07-07 110452](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_04/assets/174725064/1570b1dc-51e4-40ef-90dd-d631b6232041)
 
-python
+```python
 
 # Preprocess the data: We will focus on 'airline_sentiment' and 'text' columns
 
@@ -85,9 +86,11 @@ plt.xlabel('Sentiment')
 plt.ylabel('Count')
 
 plt.show()
+```
 
 ![Screenshot 2024-07-07 110513](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_04/assets/174725064/89522de6-a975-476e-aff3-5e5c58cae4f5)
 
+```python
 # Visualize sentiment scores by airline
 
 plt.figure(figsize=(12, 8))
@@ -105,9 +108,14 @@ plt.ylabel('Sentiment Score')
 plt.xticks(rotation=45)
 
 plt.show()
+```
+###  sentiment scores by airline
+
 
 ![Screenshot 2024-07-07 110536](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_04/assets/174725064/9e1d53b4-d87d-40d0-b0ac-0210cc0bf9ff)
 
+
+```python
 # Plot the distribution of sentiment scores
 
 plt.figure(figsize=(10, 6))
@@ -121,7 +129,9 @@ plt.xlabel('Sentiment Score')
 plt.ylabel('Count')
 
 plt.show()
+```
 
+###  distribution of sentiment scores
 ![Screenshot 2024-07-07 110552](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_04/assets/174725064/6f441463-39ff-4912-a82d-87369cadcf7d)
 
 
