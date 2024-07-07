@@ -9,6 +9,7 @@ This project analyzes sentiment patterns in social media data to understand publ
 ## Dataset:
 
 The dataset used in this project is the Tweets dataset, containing tweets related to US airline sentiment.
+https://www.kaggle.com/datasets/saurabhshahane/twitter-sentiment-dataset
 
 ## Steps
 
